@@ -1,0 +1,30 @@
+#memcached:
+#  servers: localhost:11211
+#  poolSize: 10
+#  opTimeout: 30000
+
+
+
+
+
+
+#使用redis
+spring:
+  cache:
+    type: redis
+    redis:
+      time-to-live: 60s
+  redis:
+    host: localhost
+    port: 6379
+
+
+
+
+#使用ehcache
+#spring:
+#  cache:
+#    type: ehcache
+#    ehcache:
+#      config:
+#        classpath: ehcache.xml

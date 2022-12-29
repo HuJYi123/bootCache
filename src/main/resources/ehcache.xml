@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="false">
+    <diskStore path="D:\ehcache" />
+
+
+    <defaultCache
+        eternal="false"
+        diskPersistent="false"
+        maxElementsInMemory="1000"
+        overflowToDisk="false"
+        timeToIdleSeconds="60"
+        timeToLiveSeconds="60"
+        memoryStoreEvictionPolicy="LRU" />
+
+    <cache
+            name="CodeSpace"
+            eternal="false"
+            diskPersistent="false"
+            maxElementsInMemory="1000"
+            overflowToDisk="false"
+            timeToIdleSeconds="60"
+            timeToLiveSeconds="60"
+            memoryStoreEvictionPolicy="LRU" />
+
+</ehcache>
