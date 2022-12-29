@@ -20,6 +20,6 @@ public class Main {
         b = i - j;
         System.out.println(a);
         System.out.println(b);
-
+        System.out.println("666");
     }
 }
