@@ -21,6 +21,6 @@ public class Main {
         System.out.println(a);
         System.out.println(b);
         System.out.println("666");
-        SYStem.out.println("888");
+        System.out.println("888");
     }
 }
